@@ -21,26 +21,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: true        # if your theme is a git submodule
-          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
-          extended: true          # needed by most themes (SCSS)
+          extended: true
 
-      # If your theme uses Hugo Modules, uncomment:
-      # - name: Hugo mod vendor
-      #   run: hugo mod vendor
+      - name: Hugo mod vendor
+        run: hugo mod vendor
 
       - name: Build
         run: hugo --minify
 
-      # If you don't keep static/CNAME in the repo, uncomment this to force CNAME:
-      # - name: Ensure CNAME
-      #   run: echo "jpc.fyi" > public/CNAME
+      - name: Ensure CNAME
+        run: echo "jpc.fyi" > public/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
