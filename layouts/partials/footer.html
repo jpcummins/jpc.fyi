@@ -1,18 +1,16 @@
-<footer class="footer">
-    <span class="footer_item"> </span>
-    &nbsp;
+<!-- <footer class="footer"> -->
+  <!-- <small class="footer_copyright"> -->
+    <!-- © {{ now.Format "2006" }} <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.author.name }}</a>. --> 
+    <!-- {{ T "footer.disclaimer" | safeHTML }} -->
+  <!-- </small> -->
+  <!-- <a id="mode" href="#"> -->
+    <!-- {{ partial "svgs/sun.svg" (dict "height" 16 "width" 16 "class" "mode-sunny" "title" "LIGHT") . }} -->
+    <!-- {{ partial "svgs/sun.svg" (dict "height" 16 "width" 16 "class" "mode-moon" "title" "DARK") . }} -->
+  <!-- </a> -->
+<!-- </footer> -->
 
-    <div class="footer_social-icons">
-        {{- partial "socialIcons.html" site.Params.socialIcons -}}
-    </div>
-    <small class="footer_copyright">
-        © {{ now.Format "2006" }} {{ .Site.Params.author.name }}.
-        {{ T "footer.disclaimer" | safeHTML }}
-    </small>
-</footer>
-
-{{- if .Site.Params.goToTop -}}
-<a href="#" title="{{ T "footer.go_to_top" }}" id="totop">
-    {{ partial "svgs/arrowUp.svg" (dict "height" 48 "width" 48) . }}
-</a>
-{{- end -}}
+<!-- {{- if .Site.Params.goToTop -}} -->
+<!-- <a href="#" title="{{ T " footer.go_to_top" }}" id="totop"> -->
+  <!-- {{ partial "svgs/arrowUp.svg" (dict "height" 48 "width" 48) . }} -->
+<!-- </a> -->
+<!-- {{- end -}} -->

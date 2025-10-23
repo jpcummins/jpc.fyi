@@ -72,11 +72,11 @@ theme = "hugo-blog-awesome"
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  description = "I'm a software developer and a Bitcoin nerd from Seattle and this is my blog."
+  description = "I'm a software developer and a Bitcoin nerd."
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
-  goToTop = true # set to false to disable 'go to top' button
+  goToTop = false  # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
   # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
   # Your custom scripts will be concatenated to one file `custom.js`.
@@ -90,11 +90,11 @@ theme = "hugo-blog-awesome"
   # By default (or if nothing is specified), summary is used.
 
 [Languages.en-us.params.author]
-  avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  avatar = "me2-small.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "J.P. Cummins"
   name = "J.P. Cummins"
-  description = "I'm a nerd from Seattle and this is my blog."
+  description = "I'm J.P. Cummins, a software developer and a Bitcoin nerd."
 
 [Languages.en-us.params.footer]
   disclaimer = "test"
