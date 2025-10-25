@@ -6,7 +6,19 @@
     <description>Recent content on jpc&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Oct 2025 20:21:00 -0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Oct 2025 20:20:52 -0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Challenge the Bigger Picture</title>
+      <link>http://localhost:1313/posts/challenge-the-bigger-picture/</link>
+      <pubDate>Fri, 24 Oct 2025 20:20:52 -0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/challenge-the-bigger-picture/</guid>
+      
+      <description>&lt;p&gt;AI is great at helping you work through a problem, but it’s terrible at questioning whether you’re solving the right one. That’s the big gotcha I keep running into. Once you start down a path, it just assumes that’s the right direction and keeps trying to help you go faster. It rarely stops to ask, “Wait, are we sure this approach even makes sense?”&lt;/p&gt;
+&lt;p&gt;A good example of this happened when I was troubleshooting networking issues inside my virtual machines. The VMs weren’t getting IP addresses, and after poking around, I saw that DHCP packets weren’t making it back. So I pulled in AI for help. We looked at packet traces, checked bridge interfaces, and stared at tcpdump logs together. It was like having a very eager assistant who wanted to help but didn’t realize we were digging in the wrong spot.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/posts/hello-world/</link>
